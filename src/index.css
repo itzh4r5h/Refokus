@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+:root {
+  --dark: #0f1215;
+  --light: #dee0e2;
+  --grey-400: #727a83;
+  --grey-600: #42474c;
+}
+
+@font-face {
+  font-family: satoshi;
+  src: url(./assets/fonts/Satoshi-Variable.ttf);
+}
+
+* {
+  font-family: satoshi;
+  cursor: none;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+.custom_btn{
+  position: relative;
+  will-change: transform;
+}
+
+
